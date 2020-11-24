@@ -41,14 +41,14 @@ QUICKBOOKS_CLIENT_SECRET=************************************
 QUICKBOOKS_REDIRECT_URI=*************************************
 ```
 
-4. Set the Quickbooks Data Service in [app.php](test.com)
+4. Set the Quickbooks Data Service in [app.php](https://github.com/JosephSuyam/Quickbooks-OAuth2/blob/main/config/app.php)
 ```bash
 'aliases' => [
     'QuickbooksService' => QuickBooksOnline\API\DataService\DataService::class,
 ],
 ```
 
-5. Add the blades. Follow these [file path](test.com)
+5. Add the blades. Follow these [file path](https://github.com/JosephSuyam/Quickbooks-OAuth2/blob/main/resources/views/panel/quickbooks.blade.php)
 
 ## For Proper Quickbooks Documentation
 [OAuth 2.0](https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0)
